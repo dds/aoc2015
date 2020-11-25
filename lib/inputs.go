@@ -103,6 +103,7 @@ func NumberParser(input string) []string {
 func init() {
 	Inputs = make([]string, 25)
 	Inputs[0] = inputs.TestInput1()
+	Inputs[1] = inputs.Day1()
 	// As the inputs are released, add them to the Inputs slice.
 
 }
