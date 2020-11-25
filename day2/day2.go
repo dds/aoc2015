@@ -59,6 +59,34 @@ func part1(input [][]int) int {
 	return rc
 }
 
-func part2(input [][]int) interface{} {
-	return ""
+func min(a, b int) int {
+	if a < b {
+		return a
+	}
+	return b
+}
+
+func max(a, b int) int {
+	if a > b {
+		return a
+	}
+	return b
+}
+
+func ribbon(l, w, h int) int {
+	r := l * w * h
+	m := min(l, min(w, h))
+	if l == m {
+		return r + 2*l + 2*min(w, h)
+	}
+	m2 := min(l, max(w, h))
+	return r + 2*m + 2*m2
+}
+
+func part2(input [][]int) (rc int) {
+	for _, r := range input {
+		l, w, h := r[0], r[1], r[2]
+		rc += ribbon(l, w, h)
+	}
+	return
 }
