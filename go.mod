@@ -1,4 +1,4 @@
-module github.com/dds/aoc2020
+module github.com/dds/aoc2015
 
 go 1.15
 

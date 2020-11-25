@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/dds/aoc2020/lib"
+	"github.com/dds/aoc2015/lib"
 )
 
 var Input = lib.Inputs[0]

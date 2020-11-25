@@ -1,8 +1,8 @@
-# Advent of Code 2020 (Golang)
+# Advent of Code 2015 (Golang)
 
-[![Build Status](https://travis-ci.com/dds/aoc2020.svg?branch=main)](https://travis-ci.com/github/dds/aoc2020)
+[![Build Status](https://travis-ci.com/dds/aoc2015.svg?branch=main)](https://travis-ci.com/github/dds/aoc2015)
 
-This repository is my solutions to [Advent of Code, 2020](https://adventofcode.com/2020).
+This repository is my solutions to [Advent of Code, 2015](https://adventofcode.com/2015).
 
 ## Prerequisites
 
@@ -14,7 +14,7 @@ Download, build, and install the solutions like so:
 
 ```sh
 # Download, build, and install solutions from this repo
-go get github.com/dds/aoc2020/...
+go get github.com/dds/aoc2015/...
 
 # Run solution for day 1
 day1

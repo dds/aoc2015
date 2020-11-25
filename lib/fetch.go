@@ -7,9 +7,9 @@ import (
 	"time"
 )
 
-const YEAR = 2020
+const YEAR = 2015
 
-const startTime = "2020-12-01T00:00:00-05:00"
+const startTime = "2015-12-01T00:00:00-05:00"
 
 var start time.Time
 

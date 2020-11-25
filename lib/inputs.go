@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/dds/aoc2020/lib/inputs"
+	"github.com/dds/aoc2015/lib/inputs"
 )
 
 // All puzzle inputs stored as an array of UTF-8 strings.

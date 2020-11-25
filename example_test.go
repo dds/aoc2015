@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/dds/aoc2020/lib"
+	"github.com/dds/aoc2015/lib"
 )
 
 func Example() {
