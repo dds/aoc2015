@@ -33,8 +33,33 @@ func main() {
 	fmt.Println(part2(Input))
 }
 
+type point struct {
+	x, y int
+}
+
+func (p *point) move(c byte) {
+	switch c {
+	case '>':
+		p.x++
+	case '^':
+		p.y++
+	case '<':
+		p.x--
+	case 'v':
+		p.y--
+	}
+}
+
 func part1(input string) (rc int) {
-	fmt.Println(input)
+	m := map[point]int{}
+	p := &point{}
+
+	for _, c := range input {
+		m[*p]++
+		p.move(byte(c))
+	}
+
+	rc = len(m)
 	return
 }
 
