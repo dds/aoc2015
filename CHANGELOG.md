@@ -1,3 +1,12 @@
+# [1.2.0](https://github.com/dds/aoc2015/compare/v1.1.0...v1.2.0) (2020-11-26)
+
+
+### Features
+
+* day3 scaffold and data ([da349c6](https://github.com/dds/aoc2015/commit/da349c601a68d196675bd2da5f7bfae5cd5ee07b))
+
+
+
 # [1.1.0](https://github.com/dds/aoc2015/compare/v1.0.2...v1.1.0) (2020-11-25)
 
 
