@@ -64,5 +64,16 @@ func part1(input string) (rc int) {
 }
 
 func part2(input string) (rc int) {
+	m := map[point]int{}
+	p1, p2 := &point{}, &point{}
+
+	for i := 0; i < len(input); i += 2 {
+		m[*p1]++
+		m[*p2]++
+		p1.move(byte(input[i]))
+		p2.move(byte(input[i+1]))
+	}
+
+	rc = len(m)
 	return
 }
