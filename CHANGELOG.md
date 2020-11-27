@@ -1,3 +1,7 @@
+## [1.3.2](https://github.com/dds/aoc2015/compare/v1.3.1...v1.3.2) (2020-11-27)
+
+
+
 ## [1.3.1](https://github.com/dds/aoc2015/compare/v1.3.0...v1.3.1) (2020-11-27)
 
 
@@ -27,10 +31,6 @@
 ### Features
 
 * day2 part2 ([b521ae3](https://github.com/dds/aoc2015/commit/b521ae3432f1b33ca69bad47cf1335b0af1494b3))
-
-
-
-## [1.0.2](https://github.com/dds/aoc2015/compare/v1.0.1...v1.0.2) (2020-11-25)
 
 
 
